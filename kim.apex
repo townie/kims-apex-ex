@@ -1,10 +1,10 @@
+
 <apex:page standardController="Account">
 <apex:pageBlock >
+
 <head>
-
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script type="text/javascript">
 
     $(document).ready(function() {
@@ -74,19 +74,18 @@
   </script>
 
   <style>
-    #map {
+  #map {
     font-family: Arial;
     font-size:12px;
     line-height:normal !important;
     height:500px;
     background:transparent;
-    }
+  }
   </style>
-
 </head>
 
 <body>
-  div id="map"></div>
+  <div id="map"></div>
 </body>
 
 </apex:pageBlock>
